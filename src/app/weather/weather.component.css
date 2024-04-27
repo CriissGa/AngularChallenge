@@ -1,0 +1,19 @@
+.component-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 700px;
+}
+
+.component {
+  max-width: 100%; 
+}
+
+canvas {
+  display: block; 
+  width: 100%; 
+  height: auto; 
+  max-width: 100%; 
+  max-height: 100%; 
+}
